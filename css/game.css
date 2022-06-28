@@ -1,0 +1,28 @@
+#gamebox {
+    width: 480px;
+    height: 640px;
+    border: 1px solid #000;
+    margin: 50px auto;
+    background-image: url(../images/background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#land {
+    width: 480px;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: url(../images/ground.png);
+    background-size: auto 80px;
+}
+#bird {
+    position: absolute;
+    top: 200px;
+    left: 170px;
+    width: 57px;
+    height: 40px;
+    background-image: url(../images/bird.png);
+    background-position: -200% 0;
+}
